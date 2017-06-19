@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.tblCell{
+    width:150px;
+    height:150px;
+    align-content:center;
+}
+.homeTbl{
+    width: 400px;
+    margin-left:25%;
+}

@@ -1,0 +1,20 @@
+﻿body {
+}
+.uneditableTableUET{
+    width: 75%;
+    height: 100%;
+    margin-left:10%;
+    
+}
+.editBttn{
+    margin-left:50%;
+    margin-right:10px;
+}
+.saveBttn{
+    margin-left:50%;
+    margin-right:10px;
+}
+.editableTableDDL{
+    margin-left:5%;
+    margin-right:15%;
+}

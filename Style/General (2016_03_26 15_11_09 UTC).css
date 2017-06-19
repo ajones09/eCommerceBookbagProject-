@@ -1,0 +1,92 @@
+﻿/* Please Refrain From editing this page
+    All css will have to be done with CSSClass 
+*/
+
+body{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.txtBox{
+    border-style:solid;
+    border-color:black;
+}
+/*
+    To be used on all pages 
+    <link rel="stylesheet" href="../Style/General.css" />
+*/
+/*
+    Classes are done .ClassName
+    idNames are done #IDName
+*/
+.main{
+    margin-top:1%;
+
+}
+.Banner{
+    height:126px;
+    width:1000px;
+
+}
+.listItem{
+    padding-left:0px;
+    display: inline-block;
+    text-align:center;
+    width:12%;
+}
+#menuBar{
+   width:100%;
+   
+  
+}
+.menuList{
+    margin-left:0%;
+    text-decoration:none;
+}
+.imageBttn{
+    
+    height:100px;
+    width: 100px;
+}
+.loginStatus{
+    width:100px;
+    margin-top:2%;
+    margin-right:auto;
+}
+.menuLink{
+    text-decoration:none;
+}
+.footer{
+    text-decoration:none;
+    
+}
+    
+/* used by Account and Sign-up aspx
+
+*/
+.editableTable{
+    width: 85%;
+    margin-left:auto;
+    margin-right:auto;
+    border:solid;
+    border-color:black;
+}
+.tblBttns{
+   
+    
+}
+.hiddenRow{
+    visibility:collapse;
+}
+#error1{
+    color:red;
+    
+}
+.editableTableDDL{
+    width:100px;
+}
+/*Account_setPreferrence*/
+.bttns{
+    width:150px;
+    margin-left:10%;
+}

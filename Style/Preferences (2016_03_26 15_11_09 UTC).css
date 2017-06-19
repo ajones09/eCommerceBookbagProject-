@@ -1,0 +1,20 @@
+﻿body{
+    margin-top:10%;
+
+}
+.bttns{
+    width:200px;
+    margin-left:5%;
+    margin-right:2%;
+}
+#questionsLbl{
+    height:25%;
+    width: 200px;
+    color:aqua;
+}
+#questions{
+    border:solid;
+    border-color:orange;
+    width:300px;
+    color:red;
+}
