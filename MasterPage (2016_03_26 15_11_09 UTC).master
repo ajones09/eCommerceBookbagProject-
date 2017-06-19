@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <link href="Style/Login.css" rel="stylesheet" type="text/css" runat="server" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="menu" runat="server">
+                <link href="Style/General.css" rel="stylesheet" type="text/css" runat="server" />
+                <div class="main">
+                    <!-- id styles are created using #"idName" -->
+                    <!-- Ids and Classes that span multiple pages should be kept in the general 
+            CSS each page may have its on CSS page-->
+                    <!--The Genreal Css page should be included on all of the pages -->
+                    <div id="imageDiv">
+                        <asp:Image runat="server" AlternateText="Placeholder" CssClass="Banner"  />
+                    </div>
+                    <hr class="topBar" />
+                    <div id="menuBar">
+                        <!-- class styles are created using ."className" in css-->
+                        <ul class="menuList" >
+                            <!-- Link these pages if to the current pages in the website folder do no link to any employee page 
+                     other then the default if there are to few few pages leave the leftovers alone if not enought just copy and past-->
+                            <li class="listItem"><a href="default.aspx" class="menuLink">Home</a></li>
+                            <li class="listItem"><a href="products.aspx" class="menuLink">Shop</a></li>
+                            <li class="listItem"><a href="Account.aspx" class="menuLink">Not Set 3</a></li>
+                            <li class="listItem"><a href="Home.aspx" class="menuLink">Not Set 4</a></li>
+                            <li class="listItem"><a href="Home.aspx" class="menuLink">Not Set 5</a></li>
+                            <li class="listItem"><a href="Home.aspx" class="menuLink">Not Set 6</a></li>
+                            <li class="listItem"><a href="Home.aspx" class="menuLink">Not Set 7</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="midBar" />
+                <asp:Label CssClass="loginStatus" runat="server" ID="loginStatus">Logged In As: Guest</asp:Label>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="body" runat="server" >
+                <div>
+                    <label>testing</label>
+                </div>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="footer" runat="server">
+                <a class="footer" href="employeeLogin.aspx">Employees</a>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
